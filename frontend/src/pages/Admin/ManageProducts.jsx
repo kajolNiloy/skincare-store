@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { getProducts } from '../../services/api';
 import axios from 'axios';
 
-const API = 'http://localhost:5001/api';
+const API = 'https://peachskin-backend.onrender.com/api';
 
 const ManageProducts = () => {
   const { user } = useAuth();

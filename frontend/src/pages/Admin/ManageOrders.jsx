@@ -3,7 +3,7 @@ import { useAuth } from '../../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-const API = 'http://localhost:5001/api';
+const API = 'https://peachskin-backend.onrender.com/api';
 
 const ManageOrders = () => {
   const { user } = useAuth();

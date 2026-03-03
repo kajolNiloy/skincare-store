@@ -4,7 +4,7 @@ import { useAuth } from '../../context/AuthContext';
 import { getProducts } from '../../services/api';
 import axios from 'axios';
 
-const API = 'http://localhost:5001/api';
+const API = 'https://peachskin-backend.onrender.com/api';
 
 const Dashboard = () => {
   const { user } = useAuth();
